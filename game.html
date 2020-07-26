@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess the Number IN MY MIND...The number is between 1 and 100...</h1>
+        <div id="input-container">
+            <input type="number" placeholder="Enter any number between 1 and 100..." name="number" id="number" min="1"
+                max="100">
+            <div class="button" id="submit">Check</div>
+        </div>
+
+        <h2 id="lives-text">
+            Lives: <span id="Lives">10</span>
+        </h2>
+        <div id="message"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
